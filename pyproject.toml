@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zasend"
-version = "0.1.1"
-description = "Python transactional email API client for zaSend"
+version = "0.1.2"
+description = "Python SDK for the zaSend transactional email API and SMTP service"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
@@ -15,14 +15,21 @@ authors = [
 keywords = [
     "email",
     "transactional-email",
+    "transactional-email-api",
     "email-api",
+    "email-sdk",
+    "email-service",
     "smtp",
+    "smtp-relay",
+    "send-email",
     "python-email",
     "django-email",
     "flask-email",
     "fastapi-email",
     "webhooks",
     "dkim",
+    "spf",
+    "dmarc",
     "zasend",
 ]
 classifiers = [
