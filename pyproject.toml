@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zasend"
+version = "0.1.1"
+description = "Python transactional email API client for zaSend"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+    {name = "zaSend", email = "support@zasend.com"},
+]
+keywords = [
+    "email",
+    "transactional-email",
+    "email-api",
+    "smtp",
+    "python-email",
+    "django-email",
+    "flask-email",
+    "fastapi-email",
+    "webhooks",
+    "dkim",
+    "zasend",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Communications :: Email :: Mail Transport Agents",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.25",
+]
+
+[project.urls]
+Homepage = "https://zasend.com"
+Documentation = "https://zasend.com/docs"
+Repository = "https://github.com/lr2bmail/zasend-python"
+Issues = "https://github.com/lr2bmail/zasend-python/issues"
+Changelog = "https://github.com/lr2bmail/zasend-python/releases"
+
+[tool.setuptools.packages.find]
+include = ["zasend*"]
